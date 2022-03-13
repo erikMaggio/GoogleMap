@@ -3,6 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GoogleMap/GooogleMaps/app/src/main/res/drawable/border_clean.xml" value="0.163" />
+        <entry key="..\:/GoogleMap/GooogleMaps/app/src/main/res/drawable/radius_border.xml" value="0.163" />
+        <entry key="..\:/GoogleMap/GooogleMaps/app/src/main/res/layout/activity_details.xml" value="0.16847826086956522" />
+        <entry key="..\:/GoogleMap/GooogleMaps/app/src/main/res/layout/activity_home.xml" value="0.16847826086956522" />
+        <entry key="..\:/GoogleMap/GooogleMaps/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/GoogleMap/GooogleMaps/app/src/main/res/layout/activity_main.xml" value="0.16847826086956522" />
+        <entry key="..\:/GoogleMap/GooogleMaps/app/src/main/res/layout/google_map_activity_main.xml" value="0.16847826086956522" />
+        <entry key="..\:/GoogleMap/GooogleMaps/app/src/main/res/layout/item_list.xml" value="0.16847826086956522" />
         <entry key="..\:/GooogleMaps/app/src/main/res/layout/activity_main.xml" value="0.16847826086956522" />
       </map>
     </option>

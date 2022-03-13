@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GooogleMaps</string>
+    <string name="login_tv">en caso de buscar una experiencia de prueba como test precione AQUÍ</string>
 </resources>
