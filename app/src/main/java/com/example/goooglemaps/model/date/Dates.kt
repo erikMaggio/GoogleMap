@@ -15,8 +15,8 @@ class Dates {
             "Banco de la Nación Argentina",
             LatLng(-34.7602958, -58.40166),
             2,
-            "Leandro N. Alem 15, B1832 Lomas de Zamora, Provincia de Buenos Aires",
-            "texto"
+            "Cajero Automático Banco de la Nación Argentina",
+            "Leandro N. Alem 15, B1832 Lomas de Zamora, Provincia de Buenos Aires"
         ),
         Shop(
             "La Primavera",
@@ -33,7 +33,7 @@ class Dates {
             ": Dr. Ángel C. Rotta 26, B1842AEB Monte Grande, Provincia de Buenos Aires"
         ),
         Shop(
-            "Hospital Donación Francisco Santojanni",
+            "Hospital Francisco Santojanni",
             LatLng(-34.6488717, -58.517365),
             5,
             "Hospital general en Buenos Aires",

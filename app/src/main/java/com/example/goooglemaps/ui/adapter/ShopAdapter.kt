@@ -22,7 +22,7 @@ class ShopAdapter(private val shopList: List<Shop>) : RecyclerView.Adapter<ShopH
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ShopHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.item_list, parent, false)
-        return ShopHolder(view,listener)
+        return ShopHolder(view, listener)
     }
 
     override fun onBindViewHolder(holder: ShopHolder, position: Int) {
@@ -34,8 +34,8 @@ class ShopAdapter(private val shopList: List<Shop>) : RecyclerView.Adapter<ShopH
     }
 }
 
-
-class ShopHolder(view: View,listener:ShopAdapter.OnClickListener) : RecyclerView.ViewHolder(view) {
+class ShopHolder(view: View, listener: ShopAdapter.OnClickListener) :
+    RecyclerView.ViewHolder(view) {
 
     private var binding = ItemListBinding.bind(view)
 

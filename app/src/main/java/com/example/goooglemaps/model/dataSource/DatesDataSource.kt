@@ -10,7 +10,7 @@ class DatesDataSource {
         return data.getList()
     }
 
-    fun getShopForId(id:Int): Shop? {
+    fun getShopForId(id: Int): Shop? {
         return data.getShopForId(id)
     }
 }

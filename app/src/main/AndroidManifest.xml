@@ -12,13 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GooogleMaps">
         <activity
-            android:name=".ui.DetailsActivity"
+            android:name=".ui.activity.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.HomeActivity"
+            android:name=".ui.activity.DetailsActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.GoogleMapActivity"
+            android:name=".ui.activity.GoogleMapActivity"
             android:exported="false" />
 
         <meta-data
@@ -26,7 +26,8 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".ui.LoginActivity"
+            android:name=".ui.activity.SplashActivity"
+            android:theme="@style/splashTheme"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

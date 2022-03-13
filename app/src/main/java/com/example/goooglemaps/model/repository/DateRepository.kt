@@ -4,12 +4,13 @@ import com.example.goooglemaps.model.dataSource.DatesDataSource
 import com.example.goooglemaps.model.date.Shop
 
 class DateRepository {
-   private val dataSource= DatesDataSource()
+    private val dataSource = DatesDataSource()
 
     fun getList(): List<Shop> {
         return dataSource.getList()
     }
-    fun getShopForId(id:Int): Shop? {
+
+    fun getShopForId(id: Int): Shop? {
         return dataSource.getShopForId(id)
     }
 }

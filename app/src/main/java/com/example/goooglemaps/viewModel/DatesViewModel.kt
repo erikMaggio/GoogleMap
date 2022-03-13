@@ -9,13 +9,14 @@ class DatesViewModel : ViewModel() {
 
     private val dateRepository = DateRepository()
     val dateLiveData = MutableLiveData<List<Shop>>()
-    private val detailsLiveData = MutableLiveData<Shop?>()
+    val detailsLiveData = MutableLiveData<Shop?>()
 
     fun getList() {
         val call = dateRepository.getList()
         dateLiveData.postValue(call)
     }
-    fun getShopForId(id:Int){
+
+    fun getShopForId(id: Int) {
         val call = dateRepository.getShopForId(id)
         detailsLiveData.postValue(call)
     }

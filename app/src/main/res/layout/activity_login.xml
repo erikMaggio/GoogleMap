@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.LoginActivity">
+    tools:context=".ui.activity.LoginActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -45,9 +45,9 @@
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/appCompatButton2"
-            android:layout_marginTop="15dp"
             android:layout_width="200dp"
             android:layout_height="50dp"
+            android:layout_marginTop="15dp"
             android:background="@drawable/border_clean"
             android:text="ingresa"
             android:textColor="@color/black"
@@ -58,11 +58,11 @@
         <TextView
             android:id="@+id/tv_test"
             android:layout_width="300dp"
-            android:layout_marginTop="60dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="@string/login_tv"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:text="@string/login_tv"
             android:textSize="15sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
