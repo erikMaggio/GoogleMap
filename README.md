@@ -19,8 +19,11 @@
 ![image](https://user-images.githubusercontent.com/87202940/163236834-4250253a-7b27-465a-b771-b2ba044978ea.png)
 ## En este campo , tendrann la informacion detallada de dicho establecimiento que hayan seleccionado
 
+### Arquitectura
+### MVVM
+
 ## Librerias utlizadas:
-### Arquitectura MVVM
 ### GoogleMap 
 ### Material Desing
+
 ## Autor: Erik Maggio
